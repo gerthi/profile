@@ -1,0 +1,84 @@
+body {
+  font-family: 'DM Mono', monospace;
+  margin: 10%;
+  background-color: #eaf0f3;
+}
+
+.container {
+  width: 80%; 
+  margin: 0 auto;
+}
+
+p {
+  padding-top: 5%;
+  font-family: 'Pangolin', cursive;
+}
+
+img.circle {
+  border-radius: 50%;
+  position: absolute;
+  right: 15%;
+  top: 10%;
+}
+
+.button { 
+  text-decoration: none;
+  color: white;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: rgb(4, 35, 58);
+  padding: 15px 20px;
+}
+
+a:hover{ color: rgb(81, 255, 0); }
+
+.headline {
+  background-color:rgba(81, 255, 0, 0.404);
+  padding: 0px 5px; 
+}
+
+h1, h2 { color: rgb(4, 35, 58); }
+
+.card-white {
+  text-align: center;
+  -webkit-box-shadow: 0 5px 12px -6px rgba(119, 119, 119, 0.514);
+  -moz-box-shadow: 0 5px 12px -6px rgba(119, 119, 119, 0.514);
+  box-shadow: 0 5px 12px -6px rgba(119, 119, 119, 0.514);
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 10px;
+  padding: 40px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+li > a { 
+  font-size: 50px; 
+  color: rgb(4, 35, 58);
+  }
+
+#description {font-size: 1.2em; margin-bottom: 40px; }
+
+ul {padding-left: 0px !important;}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
