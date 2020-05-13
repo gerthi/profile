@@ -10,15 +10,11 @@ body {
 }
 
 p {
-  padding-top: 5%;
   font-family: 'Pangolin', cursive;
 }
 
 .img-responsive-circle {
   border-radius: 50%;
-  position: absolute;
-  right: 15%;
-  top: 10%;
 }
 
 .button { 
